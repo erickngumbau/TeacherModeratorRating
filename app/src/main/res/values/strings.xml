@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Teacher-Moderator Rating</string>
+    <string-array name="year">
+        <item>First Year</item>
+        <item>Second Year</item>
+        <item>Third Year</item>
+        <item>Fourth Year</item>
+    </string-array>
+
+    <string-array name="course">
+        <item>Computer Science</item>
+        <item>ETS</item>
+        <item>Internet Pros</item>
+        <item>Eduaction Maths Physics</item>
+        <item>ETS</item>
+        <item>Internet Pros</item>
+        <item>Eduaction Maths Physics</item>
+    </string-array>
+</resources>
