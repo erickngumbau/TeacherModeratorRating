@@ -13,6 +13,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
 import com.google.android.material.card.MaterialCardView;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import java.util.ArrayList;
 
@@ -53,6 +54,23 @@ public class TeacherModeratorAdapter extends RecyclerView.Adapter<TeacherModerat
                 context.startActivity(intent);
             }
         });
+
+        holder.edit.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                //TODO : REDIRECT TO THE ADMIN ADDING MORE TEACHERS
+                //todo change visibilty id admin
+            }
+        });
+
+        holder.delete.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                //TODO : DELETE THE RECORDS
+                //todo change visibilty id admin
+
+            }
+        });
     }
 
     @Override
@@ -68,7 +86,7 @@ public class TeacherModeratorAdapter extends RecyclerView.Adapter<TeacherModerat
     public class ViewHolder extends RecyclerView.ViewHolder{
 
         private MaterialCardView cardView;
-        private TextView school,name;
+        private TextView school,name,delete,edit;
         private ImageView imageView;
 
         public ViewHolder(@NonNull View itemView) {
@@ -78,6 +96,8 @@ public class TeacherModeratorAdapter extends RecyclerView.Adapter<TeacherModerat
             school =itemView.findViewById(R.id.school);
             name=itemView.findViewById(R.id.name);
             imageView = itemView.findViewById(R.id.image);
+            delete=itemView.findViewById(R.id.delete);
+            edit=itemView.findViewById(R.id.edit);
         }
     }
 }

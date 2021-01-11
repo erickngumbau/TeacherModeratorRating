@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="Edit My Profile"
+        android:id="@+id/adminprofile"
+        android:icon="@drawable/ic_adminprofile"/>
+    <item
+        android:title="Add Teacher/Moderator"
+        android:id="@+id/adding"
+        android:icon="@drawable/ic_addmoderator"/>
+
+    <item
+        android:title="Edit"
+        android:id="@+id/edit"
+        android:icon="@drawable/ic_edit"/>
+
+    <item
+        android:title="About"
+        android:id="@+id/about"
+        android:icon="@drawable/ic_about"/>
+
+</menu>

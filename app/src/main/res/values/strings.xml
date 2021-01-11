@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">Teacher-Moderator Rating</string>
+    <string name="drawer_open">drawer_open</string>
+    <string name="drawer_close">drawer_close</string>
     <string-array name="year">
         <item>First Year</item>
         <item>Second Year</item>
@@ -8,12 +10,8 @@
     </string-array>
 
     <string-array name="course">
-        <item>Computer Science</item>
-        <item>ETS</item>
-        <item>Internet Pros</item>
-        <item>Eduaction Maths Physics</item>
-        <item>ETS</item>
-        <item>Internet Pros</item>
-        <item>Eduaction Maths Physics</item>
+        <item>Computer and Informatics</item>
+        <item>Education</item>
+        <item>sport science</item>
     </string-array>
 </resources>

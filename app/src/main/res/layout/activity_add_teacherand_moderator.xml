@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddTeacherandModeratorActivity"
+    android:padding="10dp">
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/name"
+        android:hint="Name"/>
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/school"
+        android:layout_below="@+id/name"
+        android:layout_marginTop="15dp"
+        android:hint="School"/>
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/description"
+        android:layout_below="@+id/school"
+        android:layout_marginTop="15sp"
+        android:hint="Descrition"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Image url"
+        android:layout_below="@+id/description"
+        android:textColor="#FFF"
+        android:id="@+id/imgupload"
+        android:background="@color/colorPrimaryDark"
+        android:layout_marginTop="15dp"/>
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageurl"
+        android:layout_marginRight="10dp"
+        android:layout_toRightOf="@+id/imgupload"
+        android:layout_alignBaseline="@+id/imgupload"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/addteacherbtn"
+        android:layout_below="@+id/imgupload"
+        android:text="save"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
